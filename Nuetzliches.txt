@@ -1,0 +1,15 @@
+1.) Paket Inatallation Probleme: Wenn z.B. der Befehl "python -m pip install..." Probleme macht und man 
+deshalb keine Pakete installieren kann, dann sollte man einfach diesed Antwort befolgen 
+auf stackoverflow: https://stackoverflow.com/questions/45954528/pip-is-configured-with-locations-that-require-tls-ssl-however-the-ssl-module-in
+Antwort: "
+The issue is due to OpenSSL package is missing on your PC.
+If pip install openpyxl also gives error.
+you can fix this by installing OpenSSL(Win64 OpenSSL v1.1.1g) from below site :
+slproweb.com/products/Win32OpenSSL.html
+Restart the IDE you are using, for changes to be in effect.
+"
+Hier findet man das Packet das fehlt: http://slproweb.com/products/Win32OpenSSL.html
+einfach msi Installer, dann Packet installieren, dann visual studio code restarten und schon gehen 
+die install Befehle wieder!
+
+2.) 
